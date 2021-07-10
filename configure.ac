@@ -4,7 +4,7 @@
 AC_PREREQ([2.55])
 AC_INIT([SLUDGE], [2.2.2], [tobias.han@gmx.de], [sludge], [http://opensludge.github.io/])
 AC_CONFIG_SRCDIR([source/CommonCode/tga.cpp])
-AM_INIT_AUTOMAKE([subdir-objects])
+AM_INIT_AUTOMAKE([subdir-objects foreign])
 AC_CONFIG_HEADERS([config.h])
 
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
